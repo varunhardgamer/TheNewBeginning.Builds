@@ -1,0 +1,67 @@
+{
+  "name": "<b><font color=\"#FFFFFF\">TheNewBeginningKernel</font></b>",
+  "short_description": "A kernel by <b>TheHardGamer_V@RuN</b>",
+  "long_description": "Welcome to <b>TheNewBeginningKernel</b>",
+  "MyBlog": "https://thehardgamer.wordpress.com/",
+  "github": "https://github.com/varunhardgamer",
+  "features": [
+    "CAF Based",
+    "Linux Kernel 3.10.107",
+    "Build with AARCH64-4.9",
+    {
+      "name": "CPU Governors",
+      "items": [
+        "interactive",
+        "ondemand",
+        "userspace",
+        "powersave",
+        "performance"
+        "alucard"
+      ]
+    },
+    {
+      "name": "GPU Governors",
+      "items": [
+        "msm_cpufreq",
+        "msm-adreno-tz (default)",
+        "userspace",
+        "powersave",
+        "performance",
+        "simple_ondemand"
+      ]
+    },
+    {
+      "name": "I/O Schedulers",
+      "items": [
+        "noop",
+        "deadline",
+        "row",
+        "cfq",
+        "bfq (default)",
+        "fiops",
+        "sio"
+      ]
+    },
+    "LZ4",
+    "f2fs",
+    "FastCHarge",
+    "ALucardHotplug",
+    "SoundGain",
+    "Vibration Control",
+    "MSM Kcal",
+    "zRam",
+    "Multicore Power Saving",
+    "Write Protection has been removed",
+    "Init.d scripts",
+    "Support for Spectrum"
+  ],
+  "downloads": [
+    {
+      "name": "PrimeR",
+      "description": "<b>Only for <i>ARM64ROMs</i></b>",
+      "url": "https://raw.githubusercontent.com/varunhardgamer/TheNewBeginning.Builds/master/TheNewBeginning_ARM64-PrimeR_V%40RuN.zip",
+      "md5sum": "--",
+      "changelog": [
+        "CLean, Scratch Built-kernel"
+      ]
+    }

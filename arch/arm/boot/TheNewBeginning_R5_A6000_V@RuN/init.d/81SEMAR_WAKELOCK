@@ -1,0 +1,32 @@
+#!/system/bin/sh
+# Semar by Mr. AW (Aditya Wicaksono) @ jember.kab xda
+# Wakelock enable/disable for Semar Kernel
+ 
+#=======================================================================#
+
+
+#============================= VARIABLES ================================#
+#
+# List of governors
+ENABLE="Y"
+DISABLE="N"
+#
+##=======================================================================#
+
+
+#========================== SETTING PARAMS ==============================#
+
+# enable/disable wlan
+echo $DISABLE > /sys/module/wakeup/parameters/enable_wlan_ws;
+
+# enable/disable qcom_rx_wakelock
+echo $DISABLE > /sys/module/wakeup/parameters/enable_qcom_rx_wakelock_ws;
+
+# enable/disable wlan_extscan_wl
+echo $ENABLE > /sys/module/wakeup/parameters/enable_wlan_extscan_wl_ws;
+
+# enable/disable IPA_WS
+echo $ENABLE > /sys/module/wakeup/parameters/enable_ipa_ws;
+
+
+
